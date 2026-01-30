@@ -1,87 +1,106 @@
-import SectionTitle from "@/components/ui/sectionTitle"
-import AboutRoundedTextVideoPopup from "./aboutRoundedTextVideoPopup"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import SectionTitle from "@/components/ui/sectionTitle";
 
 const AboutOne = () => {
   return (
-    <section id="about" className="about-section section-padding fix">
+    <section id="about" className="about-section section-padding">
       <div className="container">
-        <div className="about-wrapper">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="about-image-items">
-                <div className="counter-shape float-bob-y">
-                  <div className="icon">
-                    <img src="/img/about/icon-1.svg" alt="icon-img" />
-                  </div>
-                  <div className="content">
-                    <h3><span className="count">6,561</span>+</h3>
-                  </div>
-                </div>
-                <AboutRoundedTextVideoPopup/>
-                <div className="about-image-1 bg-cover wow slideLeft" data-delay=".3" style={{ backgroundImage: 'url("/img/about/01.jpg")' }}>
-                  <div className="about-image-2 wow slideUp" data-delay=".5">
-                    <img src="/img/about/02.jpg" alt="about-img" />
-                  </div>
-                </div>
+        {/* Section Title */}
+        <SectionTitle className="text-center mb-5">
+          <SectionTitle.SubTitle>About Us</SectionTitle.SubTitle>
+          <SectionTitle.Title>ABOUT US</SectionTitle.Title>
+        </SectionTitle>
+
+        <div className="row g-4">
+          {/* Mission */}
+          <div className="col-lg-4 col-md-6">
+            <div className="about-card text-center">
+              <div className="about-icon">
+                <i className="bi bi-briefcase"></i>
               </div>
+              <div className="circle">
+                <Link to="/about" className="about-link">
+                  <i className="fa fa-suitcase fa-3x"></i>
+                </Link>
+              </div>
+              <h5>
+                <Link to="/about" className="about-link">
+                  Mission
+                </Link>
+              </h5>
+
+              <p>
+                Participate in improving the human condition by turning
+                knowledge into practice and actions. And to be of the world’s
+                leading independent development services companies, recognized
+                for solving critical social and scientific problems in
+                Education, Health, Poverty, Unemployment, and Women Empowerment.
+              </p>
             </div>
-            <div className="col-lg-6 mt-4 mt-lg-0">
-              <div className="about-content">
-                <SectionTitle>
-                  <SectionTitle.SubTitle>About Us</SectionTitle.SubTitle>
-                  <SectionTitle.Title> Welcome To Solaren Solar Power Energy System</SectionTitle.Title>
-                </SectionTitle>
-                <p className="mt-3 mt-md-0 wow slideUp" data-delay=".5">
-                  Solar companies can offer solar panels, inverters, batteries, and other related services to help individuals businesses transition to energy sources businesses transition to energy sources and sustainable energy alternative.
-                </p>
-                <div className="about-icon-items">
-                  <div className="icon-items wow slideUp" data-delay=".7">
-                    <div className="icon">
-                      <img src="/img/about/icon-2.svg" alt="icon-img" />
-                    </div>
-                    <div className="content">
-                      <h4>Reliability and Performance</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet cut co sect. Proin viverra
-                      </p>
-                    </div>
-                  </div>
-                  <div className="icon-items wow slideUp" data-delay=".9">
-                    <div className="icon">
-                      <img src="/img/about/icon-3.svg" alt="icon-img" />
-                    </div>
-                    <div className="content">
-                      <h4>BrightSun Support</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet cut co sect. Proin viverra
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="about-author">
-                  <div className="about-button wow slideUp" data-delay=".5">
-                    <Link to="/about" className="theme-btn">
-                      Explore More
-                      <i className="fa-solid fa-arrow-right-long" />
-                    </Link>
-                  </div>
-                  <div className="author-image wow slideUp" data-delay=".7">
-                    <img src="/img/about/author.png" alt="author-img" />
-                    <div className="content">
-                      <h6>Ronald Richards</h6>
-                      <p>Co, Founder</p>
-                    </div>
-                  </div>
-                </div>
+          </div>
+
+          {/* Values */}
+          <div className="col-lg-4 col-md-6">
+            <div className="about-card text-center">
+              <div className="about-icon">
+                <i className="bi bi-gem"></i>
               </div>
+              <div className="circle">
+                <Link to="/about" className="about-link">
+                  <i className="fa fa-diamond fa-3x"></i>
+                </Link>
+              </div>
+              <h5>
+                <Link to="/about" className="about-link">
+                  Values
+                </Link>
+              </h5>
+
+              <p>
+                Integrity – Honesty – Excellence – Innovation – Respect for the
+                Individual – Fiscal Responsibility – Objectivity. Integrity: We
+                perform with the highest ethical standards of individual and
+                group. We communicate openly and realistically with each other
+                and our clients. Excellence: We strive to deliver results with
+                exceptional quality and value. Innovation: We encourage
+                multidisciplinary thinking and creative solutions.
+              </p>
+            </div>
+          </div>
+
+          {/* Who We Are */}
+          <div className="col-lg-4 col-md-12">
+            <div className="about-card text-center">
+              <div className="about-icon">
+                <i className="bi bi-journal-text"></i>
+              </div>
+              <div className="circle">
+                <Link to="/about" className="about-link">
+                  <i className="fa fa-book fa-3x"></i>
+                </Link>
+              </div>
+
+              <h5>
+                <Link to="/about" className="about-link">
+                  Who We Are
+                </Link>
+              </h5>
+
+              <p>
+                Development Gate International established in 2015 under the
+                name of Edu Gate International as an individual facility
+                focusing only on Education Services. In January 2019 the company
+                converted into a Limited Liability Company under the Egyptian
+                Investment Authority with the name of Development Gate
+                International. The company’s team qualification and experience
+                has earned us strong credibility and trust.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+  );
+};
 
-  )
-}
-
-export default AboutOne
+export default AboutOne;

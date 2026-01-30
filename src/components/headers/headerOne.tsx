@@ -17,7 +17,7 @@ const HeaderOne = () => {
                             <div className="header-left">
                                 <div className="logo">
                                     <Link to="/" className="header-logo">
-                                        <img src="/img/logo/black-logo.svg" alt="logo-img" />
+                                        <img src="/public/img/hero/cropped-web-1.webp" alt="logo-img" />
                                     </Link>
                                 </div>
                             </div>
@@ -30,14 +30,6 @@ const HeaderOne = () => {
                                     </div>
                                 </div>
                                 <SearchPopup />
-                                <div className="header-button">
-                                    <Link to="/contact" className="theme-btn">
-                                        <span>
-                                            get A Quote {' '}
-                                            <i className="fa-solid fa-arrow-right-long" />
-                                        </span>
-                                    </Link>
-                                </div>
                                 <div className="header__hamburger d-xl-block my-auto">
                                     <ExtraInfoOffcanvas />
                                 </div>

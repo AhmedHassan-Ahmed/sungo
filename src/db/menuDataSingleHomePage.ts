@@ -44,7 +44,7 @@ export const menuDataSingleHomePage: MenuItemDataType[] = [
         link: '#about',
     },
     {
-        title: 'Services',
+        title: 'Education',
         link: '#services',
     },
     {

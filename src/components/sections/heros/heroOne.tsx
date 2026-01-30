@@ -15,18 +15,34 @@ interface SlideType {
 const slidesData: SlideType[] = [
   {
     id: 1,
-    image: '/img/hero/hero-12.jpg',
-    title: 'WELCOME TO THE SOLAR SOLEN',
-    heading: 'Powering the Future <br /> with Our Renewable <br /> Energy Suntide',
-    description: 'Transmds is the world’s driving worldwide coordinations provider we uphold industry and exchange the worldwide trade of merchandi',
+    image: '/public/img/hero/management3.webp',
+    title: 'WELCOME',
+    heading: 'TEST 1<br />Hello<br /> Test',
+    description: 'it is a Test',
     link: '/',
   },
   {
     id: 2,
-    image: '/img/hero/hero-7.jpg',
-    title: 'WELCOME TO THE SOLAR SOLEN',
-    heading: 'Powering the Future <br /> with Our Renewable <br /> Energy Suntide',
-    description: 'Transmds is the world’s driving worldwide coordinations provider we uphold industry and exchange the worldwide trade of merchandi',
+    image: '/public/img/hero/class-377117_1280.webp',
+    title: 'WELCOME',
+    heading: 'TEST 2 <br /> Hello <br /> Test',
+    description: 'TEST 2',
+    link: '/',
+  },
+  {
+    id: 3,
+    image: '/public/img/hero/libary.webp',
+    title: 'WELCOME',
+    heading: 'TEST 2 <br /> Hello <br /> Test',
+    description: 'TEST 2',
+    link: '/',
+  },
+    {
+    id: 4,
+    image: 'public/img/hero/nurseries.jpg',
+    title: 'WELCOME',
+    heading: 'TEST 2 <br /> Hello <br /> Test',
+    description: 'TEST 2',
     link: '/',
   },
 ];
@@ -46,7 +62,8 @@ const HeroOne = () => {
         autoplay={{
           delay: 7000,
           disableOnInteraction: false,
-        }}
+        }
+      }
         navigation={{
           nextEl: ".array-prev",
           prevEl: ".array-next",

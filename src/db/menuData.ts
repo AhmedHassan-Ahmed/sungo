@@ -67,16 +67,16 @@ export const menuData: MenuItemDataType[] = [
     link: '/about',
   },
   {
-    title: 'Services',
+    title: 'Education',
     link: '/service',
     submenu: [
-      { title: 'Services', link: '/service' },
-      { title: 'Service Carousel', link: '/service-carousel' },
-      { title: 'Service Details', link: '/service-details' },
+      { title: 'School Management', link: '/service' },
+      { title: 'Teacher professional Development', link: '/service-carousel' },
+      { title: 'Nurseries/Preschools', link: '/service-details' },
     ],
   },
   {
-    title: 'Pages',
+    title: 'Research',
     link: '#',
     submenu: [
       {
@@ -103,7 +103,7 @@ export const menuData: MenuItemDataType[] = [
     ],
   },
   {
-    title: 'Blog',
+    title: 'Lastest News',
     link: '/news',
     submenu: [
       { title: 'Blog Grid', link: '/news' },
