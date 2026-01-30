@@ -4,10 +4,15 @@ import 'swiper/css/pagination';
 import { projectsOneData } from "@/db/projectsOneData";
 import { Autoplay, Pagination } from "swiper/modules";
 import ProjectCard from "./projectCard";
+import SectionTitle from "@/components/ui/sectionTitle";
 
 const ProjectsOne = () => {
     return (
         <section id="projects" className="project-section section-padding pt-0 fix">
+            <SectionTitle className="text-center mb-5">
+                      <SectionTitle.SubTitle>Education</SectionTitle.SubTitle>
+                      <SectionTitle.Title>Education & Research</SectionTitle.Title>
+                    </SectionTitle>
             <Swiper
                 spaceBetween={30}
                 speed={1500}

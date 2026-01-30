@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 type ProjectCardPropsType = {
   project: ProjectDataType;
   className?: string;
+  iconCalss?:string;
+  isIconShow?: boolean;
 };
 
 const ProjectCard = ({ project, className }: ProjectCardPropsType) => {

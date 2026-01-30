@@ -15,7 +15,7 @@ const Project = () => {
                                     <div className="project-image">
                                         <img src={project.image} alt="project-img" />
                                         <div className="project-content">
-                                            <p>{project.category}</p>
+                                            <p>{project.title}</p>
                                             <h4>
                                                 <Link to={project.link}>{project.title}</Link>
                                             </h4>

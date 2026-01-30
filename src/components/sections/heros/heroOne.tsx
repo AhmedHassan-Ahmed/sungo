@@ -15,34 +15,34 @@ interface SlideType {
 const slidesData: SlideType[] = [
   {
     id: 1,
-    image: '/public/img/hero/management3.webp',
+    image: '/img/hero/management3.webp',
     title: 'WELCOME',
-    heading: 'TEST 1<br />Hello<br /> Test',
-    description: 'it is a Test',
+    heading: '',
+    description: '',
     link: '/',
   },
   {
     id: 2,
-    image: '/public/img/hero/class-377117_1280.webp',
-    title: 'WELCOME',
-    heading: 'TEST 2 <br /> Hello <br /> Test',
-    description: 'TEST 2',
+    image: '/img/hero/class-377117_1280.webp',
+    title: '',
+    heading: '',
+    description: '',
     link: '/',
   },
   {
     id: 3,
-    image: '/public/img/hero/libary.webp',
+    image: '/img/hero/libary.webp',
     title: 'WELCOME',
-    heading: 'TEST 2 <br /> Hello <br /> Test',
-    description: 'TEST 2',
+    heading: '',
+    description: '',
     link: '/',
   },
     {
     id: 4,
-    image: 'public/img/hero/nurseries.jpg',
+    image: '/img/hero/nurseries.jpg',
     title: 'WELCOME',
-    heading: 'TEST 2 <br /> Hello <br /> Test',
-    description: 'TEST 2',
+    heading: '',
+    description: '',
     link: '/',
   },
 ];
@@ -89,60 +89,34 @@ const Card = ({ slide, isActive }: { slide: SlideType; isActive: boolean }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: isActive ? 1 : 0 }}
     >
-      <div className="hero-image bg-cover" style={{ backgroundImage: `url(${slide.image})` }} />
+      <div
+        className="hero-image bg-cover"
+        style={{ backgroundImage: `url(${slide.image})` }}
+      />
+
       <div className="container">
         <div className="row g-4">
           <div className="col-lg-8">
             <div className="hero-content">
+
               <motion.h6
                 initial={{ x: '100%', opacity: 0 }}
                 animate={{ x: isActive ? '0' : '100%', opacity: isActive ? 1 : 0 }}
-                transition={{
-                  duration: .5,
-                  delay: 0.3,
-                  ease: 'linear',
-                }}
+                transition={{ duration: .5, delay: 0.3 }}
               >
                 {slide.title}
               </motion.h6>
-              <motion.h1
-                initial={{ x: '100%', opacity: 0 }}
-                animate={{ x: isActive ? '0' : '100%', opacity: isActive ? 1 : 0 }}
-                transition={{
-                  duration: .5,
-                  delay: 0.5,
-                  ease: 'linear',
-                }}
-                dangerouslySetInnerHTML={{ __html: slide.heading }}></motion.h1>
-              <motion.p
-                initial={{ x: '100%', opacity: 0 }}
-                animate={{ x: isActive ? '0' : '100%', opacity: isActive ? 1 : 0 }}
-                transition={{
-                  duration: .5,
-                  delay: 0.7,
-                  ease: 'linear',
-                }}
-              >
-                {slide.description}
-              </motion.p>
-              <motion.div
-                initial={{ x: '100%', opacity: 0 }}
-                animate={{ x: isActive ? '0' : '100%', opacity: isActive ? 1 : 0 }}
-                transition={{
-                  duration: .5,
-                  delay: 0.9,
-                  ease: 'linear',
-                }}
-                className="hero-button"
-              >
-                <Link to={slide.link} className="theme-btn theme-color-2">
-                  <span>Learn More <i className="fas fa-chevron-right" /></span>
-                </Link>
-              </motion.div>
+
+              {/* Hidden but preserved for CSS */}
+              <motion.h1 style={{ display: 'none' }} />
+              <motion.p style={{ display: 'none' }} />
+              <motion.div className="hero-button" style={{ display: 'none' }} />
+
             </div>
           </div>
         </div>
       </div>
     </motion.div>
   )
+
 }

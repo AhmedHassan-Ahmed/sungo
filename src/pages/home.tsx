@@ -11,26 +11,26 @@ import ProjectsOne from '@/components/sections/projects/projectsOne'
 import ServicesOne from '@/components/sections/services/servicesOne'
 import TeamesOne from '@/components/sections/teames/teamesOne'
 import TestimonialOne from '@/components/sections/testimonials/testimonialOne'
-
+ import LogoMarquee from '@/components/sections/marques/LogoMarquee'
 const Home = () => {
     return (
         <div>
             <HeroOne />        
             <AboutOne />
-            <PartnersOne className='pt-0'/>
+          
             
            
             <ProjectsOne/>
-            <MarqueTwo/>
+            <LogoMarquee/>
             <TestimonialOne/>
-            <ServicesOne/>
+            {/* <ServicesOne/>
             
              <AchievementOne/>
             <TeamesOne/>
             <PriceGridOne/>
-            <FaqHomeOne/>
-            <BlogsOne/>
-            <NewsLetter/>
+            <FaqHomeOne/> */
+            /* <BlogsOne/> */
+            /* <NewsLetter/> */}
         </div>
     )
 }

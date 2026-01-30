@@ -17,7 +17,7 @@ const HeaderOne = () => {
                             <div className="header-left">
                                 <div className="logo">
                                     <Link to="/" className="header-logo">
-                                        <img src="/public/img/hero/cropped-web-1.webp" alt="logo-img" />
+                                        <img src="/img/hero/cropped-web-1.webp" alt="logo-img" />
                                     </Link>
                                 </div>
                             </div>

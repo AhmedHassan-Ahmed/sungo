@@ -9,7 +9,7 @@ export interface ProjectDataType {
 export const projectsOneData: ProjectDataType[] = [
   {
     id: 1,
-    image: "/public/img/project/school-management.webp",
+    image: "/img/project/school-management.webp",
     title: "School Management",
     description:
       "We are an education service provider supporting public and private schools with management and reform implementation.",
@@ -17,7 +17,7 @@ export const projectsOneData: ProjectDataType[] = [
   },
   {
     id: 2,
-    image: "/public/img/project/teacher-development.jpeg",
+    image: "/img/project/teacher-development.jpeg",
     title: "Teacher Professional Development",
     description:
       "Tailored training, mentoring, and lesson observations to improve teaching quality rapidly.",
@@ -25,7 +25,7 @@ export const projectsOneData: ProjectDataType[] = [
   },
   {
     id: 3,
-    image: "/public/img/project/nurseries.jpg",
+    image: "/img/project/nurseries.jpg",
     title: "Nurseries / Preschools",
     description:
       "Managing nurseries and preschools focusing on cognitive, language, physical, and wellness development.",
@@ -33,7 +33,7 @@ export const projectsOneData: ProjectDataType[] = [
   },
   {
     id: 4,
-    image: "/public/img/project/monitoring-evaluation.png",
+    image: "/img/project/monitoring-evaluation.png",
     title: "Monitoring and Evaluation",
     description:
       "A multidisciplinary approach to monitoring and evaluation, combining quantitative analysis with qualitative insights.",
@@ -41,7 +41,7 @@ export const projectsOneData: ProjectDataType[] = [
   },
   {
     id: 5,
-    image: "/public/img/project/surveys-research.webp",
+    image: "/img/project/surveys-research.webp",
     title: "Surveys Research",
     description:
       "Cutting-edge survey research built on proven methodologies and best practices across industries.",
@@ -49,7 +49,7 @@ export const projectsOneData: ProjectDataType[] = [
   },
   {
     id: 6,
-    image: "/public/img/project/data-collection.webp",
+    image: "/img/project/data-collection.webp",
     title: "Data Collection",
     description:
       "Applying the right survey tools for each project, including face-to-face, phone, web, and mail data collection.",
@@ -57,7 +57,7 @@ export const projectsOneData: ProjectDataType[] = [
   },
   {
     id: 7,
-    image: "/public/img/project/data-analysis-reporting.webp",
+    image: "/img/project/data-analysis-reporting.webp",
     title: "Data Analysis & Reporting",
     description:
       "Transforming raw data into meaningful insights through accurate analysis and professional reporting.",
@@ -65,7 +65,7 @@ export const projectsOneData: ProjectDataType[] = [
   },
   {
     id: 8,
-    image: "/public/img/project/technology-research.webp",
+    image: "/img/project/technology-research.webp",
     title: "Technology in Research",
     description:
       "Leveraging modern technology to enhance survey efficiency, reduce costs, and improve data accuracy.",
@@ -73,7 +73,7 @@ export const projectsOneData: ProjectDataType[] = [
   },
   {
     id: 9,
-    image: "/public/img/project/quality-security.webp",
+    image: "/img/project/quality-security.webp",
     title: "Quality & Security",
     description:
       "Ensuring the highest standards of data quality, privacy, and security across all research projects.",
