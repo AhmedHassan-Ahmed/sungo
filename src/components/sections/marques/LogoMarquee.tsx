@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import SectionTitle from "@/components/ui/sectionTitle";
 const logos = [
     { src: "/img/partners/stanford.webp", alt: "Stanford University" },
