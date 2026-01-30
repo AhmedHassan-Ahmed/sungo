@@ -1,4 +1,5 @@
-
+@use "_mixins" as *;
+@use "_variables" as *;
 .faq-section {
     position: relative;
 

@@ -1,3 +1,5 @@
+@use "_mixins" as *;
+@use "_variables" as *;
 .mean-container a.meanmenu-reveal {
 	display: none;
   }

@@ -1,4 +1,7 @@
 //>>>>> Component Button Here <<<<<//
+@use "_variables" as *;
+@use "_mixins" as *;
+
 .theme-btn {
     background-color: $theme-color;
     color: $white;

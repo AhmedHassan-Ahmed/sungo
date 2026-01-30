@@ -1,4 +1,5 @@
-
+@use "_mixins" as *;
+@use "_variables" as *;
 //page scroll bar add
 ::-webkit-scrollbar {
 	width: 4px;

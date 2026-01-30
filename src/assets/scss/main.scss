@@ -1,121 +1,41 @@
-@use "_about";
-@use "_animation";
-@use "_brand";
+/* ===============================
+   VARIABLES & MIXINS (FIRST!)
+================================ */
+@use "_variables" as *;
+@use "_mixins" as *;
+
+@use "_typography";
+
 @use "_buttons";
-@use "_contact";
+@use "_animation";
+
+/* ===============================
+   LAYOUT / SECTIONS
+================================ */
+@use "_header";
+@use "_footer";
+@use "_hero";
+@use "_about";
+@use "_brand";
 @use "_cta";
-@use "_customDropdown";
 @use "_faq";
 @use "_feature";
-@use "_footer";
-@use "_header";
 @use "_helping";
-@use "_hero";
 @use "_marquee";
 @use "_meanmenu";
-@use "_mixins";
 @use "_news";
-@use "_preloader";
 @use "_pricing";
+@use "_preloader";
 @use "_project";
 @use "_section";
 @use "_service";
 @use "_team";
 @use "_testimonial";
-@use "_typography";
-@use "_variables";
+@use "_contact";
 
-/*
-Theme Name: Sungo 
-Author: theme_ocean
-Author URI: https://themeforest.net/user/theme_ocean
-Description: Sungo - Ecology & Solar Energy HTML Template<
-Version: 1.0.0
-*/
-
-/*CSS Table Of Content Ends Here*/
-
-//>> Bootstrap <<//
+/* ===============================
+   THIRD-PARTY CSS (ALLOWED)
+================================ */
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-//>> Basic Start <<//
-
-//>> Mixins <<//
-
-//>> Variables <<//	
-
-//>> Buttons <<//
-
-//>> Typography <<//
-
-//>> Basic End <<//	
-
-
-
-//>> Template Section Style Start <<//
-
-//>> About <<//
-
-
-//>> Animation <<//
-
-
-//>> Brand <<//
-
-
-//>> Contact <<//
-
-
-//>> Cta <<//
-
-
-//>> Faq <<//
-
-
-//>> Feature <<//
-
-
-//>> Footer <<//
-
-
-//>> Header <<//
-
-
-//>> Helping <<//
-
-
-//>> Hero <<//
-
-
-//>> Marquee <<//
-
-
-//>> MeanMenu <<//
-
-
-//>> News <<//
-
-
-//>> Pricing <<//
-
-
-//>> Preloader <<//
-
-
-//>> Project <<//
-
-
-//>> Section <<//
-
-
-//>> Service <<//
-
-
-//>> Team <<//
-
-
-//>> Testimonial <<//
-
-
-//>> Template Section Style End <<//
 

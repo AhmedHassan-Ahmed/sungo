@@ -1,3 +1,5 @@
+@use "_mixins" as *;
+@use "_variables" as *;
 .preloader {
     align-items: center;
     cursor: default;
