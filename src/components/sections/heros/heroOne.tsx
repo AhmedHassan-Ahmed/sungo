@@ -2,7 +2,7 @@ import { motion } from "motion/react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 import 'swiper/css';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 interface SlideType {
   id: number;
