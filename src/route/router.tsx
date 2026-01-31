@@ -1,4 +1,3 @@
-import LayoutFour from "@/layout/layoutFour";
 import LayoutThree from "@/layout/layoutThree";
 import LayoutTwo from "@/layout/layoutTwo";
 import RootLayout from "@/layout/root";
@@ -9,8 +8,8 @@ import BlogStandard from "@/pages/blog-standard";
 import Contact from "@/pages/contact";
 import QualitySecurity from "@/pages/QualitySecurity";
 import Home from "@/pages/home";
-import HomeFour from "@/pages/home-four";
-import HomeFourSingle from "@/pages/home-four-single";
+// import HomeFour from "@/pages/home-four";
+// import HomeFourSingle from "@/pages/home-four-single";
 import HomeOneSingle from "@/pages/home-one-single";
 import HomeThree from "@/pages/home-three";
 import HomeThreeSingle from "@/pages/home-three-single";
@@ -174,18 +173,5 @@ export const router = createBrowserRouter([
       },
     ],
   },
-  {
-    path: "/",
-    element: <LayoutFour />,
-    children: [
-      {
-        path: "/home-four",
-        element: <HomeFour />,
-      },
-      {
-        path: "/home-four-single",
-        element: <HomeFourSingle />,
-      },
-    ],
-  },
+
 ]);
