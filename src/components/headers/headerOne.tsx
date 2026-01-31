@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import ExtraInfoOffcanvas from "./extraInfoOffcanvas"
+// import ExtraInfoOffcanvas from "./extraInfoOffcanvas"
 import Navbar from "./navbar"
 import SearchPopup from "./searchPopup"
 import TopHeaderOne from "./topHeaderOne"
