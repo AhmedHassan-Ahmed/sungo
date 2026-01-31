@@ -31,7 +31,7 @@ const HeaderOne = () => {
                                 </div>
                                 <SearchPopup />
                                 <div className="header__hamburger d-xl-block my-auto">
-                                    <ExtraInfoOffcanvas />
+                                    {/* <ExtraInfoOffcanvas /> */}
                                 </div>
                             </div>
                         </div>
