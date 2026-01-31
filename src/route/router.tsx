@@ -28,134 +28,148 @@ import Team from "@/pages/team";
 import TeamCarousel from "@/pages/team-carousel";
 import TeamDetails from "@/pages/team-details";
 import { createBrowserRouter } from "react-router-dom";
+import AboutMission from "@/components/sections/about/AboutMission";
 
 export const router = createBrowserRouter([
-    {
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      {
         path: "/",
-        element: <RootLayout />,
+        element: <Home />,
+      },
+      {
+        path: "/home-one-single",
+        element: <HomeOneSingle />,
+      },
+      {
+        path: "/about",
         children: [
-            {
-                path: "/",
-                element: <Home />
-            },
-            {
-                path: "/home-one-single",
-                element: <HomeOneSingle />
-            },
-            {
-                path:'/about',
-                element:<About/>
-            },
-            {
-                path:'/service',
-                element:<Service/>
-            },
-            {
-                path:'/service-carousel',
-                element:<ServiceCarousel/>
-            },
-            {
-                path:'/service-details',
-                element:<ServiceDetails/>
-            },
-            {
-                path:'/project',
-                element:<Project/>
-            },
-            {
-                path:'/project-carousel',
-                element:<ProjectCarousel/>
-            },
-            {
-                path:'/project-details',
-                element:<ProjectDetails/>
-            },
-            {
-                path:'/team',
-                element:<Team/>
-            },
-            {
-                path:'/team-carousel',
-                element:<TeamCarousel/>
-            },
-            {
-                path:'/team-details',
-                element:<TeamDetails/>
-            },
-            {
-                path:'/pricing',
-                element:<Pricing/>
-            },
-            {
-                path:'/faq',
-                element:<Faq/>
-            },
-            {
-                path:'/404',
-                element:<Error/>
-            },
-            {
-                path:'/news',
-                element:<Blog/>
-            },
-            {
-                path:'/news-standard',
-                element:<BlogStandard/>
-            },
-            {
-                path:'/news-details',
-                element:<BlogDetails/>
-            },
-            {
-                path:'/contact',
-                element:<Contact/>
-            },
-        ]
-    },
-    {
-        path:'*',
-        element:<Error/>
-    },
-    {
-        path: "/",
-        element: <LayoutTwo />,
-        children: [
-            {
-                path: "/home-two",
-                element: <HomeTwo />
-            },
-            {
-                path: "/home-two-single",
-                element: <HomeTwoSingle />
-            },
-        ]
-    },
-    {
-        path: "/",
-        element: <LayoutThree />,
-        children: [
-            {
-                path: "/home-three",
-                element: <HomeThree />
-            },
-            {
-                path: "/home-three-single",
-                element: <HomeThreeSingle />
-            },
-        ]
-    },
-    {
-        path: "/",
-        element: <LayoutFour />,
-        children: [
-            {
-                path: "/home-four",
-                element: <HomeFour />
-            },
-            {
-                path: "/home-four-single",
-                element: <HomeFourSingle />
-            },
-        ]
-    },
-])
+          {
+            index: true,
+            element: <About />, 
+          },
+          {
+            path: "about-mission",
+            element: <AboutMission />,
+          },
+          {
+            path: "team",
+            element: <Team />,
+          },
+        ],
+      },
+      {
+        path: "/service",
+        element: <Service />,
+      },
+      {
+        path: "/service-carousel",
+        element: <ServiceCarousel />,
+      },
+      {
+        path: "/service-details",
+        element: <ServiceDetails />,
+      },
+      {
+        path: "/project",
+        element: <Project />,
+      },
+      {
+        path: "/project-carousel",
+        element: <ProjectCarousel />,
+      },
+      {
+        path: "/project-details",
+        element: <ProjectDetails />,
+      },
+      {
+        path: "/team",
+        element: <Team />,
+      },
+      {
+        path: "/team-carousel",
+        element: <TeamCarousel />,
+      },
+      {
+        path: "/team-details",
+        element: <TeamDetails />,
+      },
+      {
+        path: "/pricing",
+        element: <Pricing />,
+      },
+      {
+        path: "/faq",
+        element: <Faq />,
+      },
+      {
+        path: "/404",
+        element: <Error />,
+      },
+      {
+        path: "/news",
+        element: <Blog />,
+      },
+      {
+        path: "/news-standard",
+        element: <BlogStandard />,
+      },
+      {
+        path: "/news-details",
+        element: <BlogDetails />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+    ],
+  },
+  {
+    path: "*",
+    element: <Error />,
+  },
+  {
+    path: "/",
+    element: <LayoutTwo />,
+    children: [
+      {
+        path: "/home-two",
+        element: <HomeTwo />,
+      },
+      {
+        path: "/home-two-single",
+        element: <HomeTwoSingle />,
+      },
+    ],
+  },
+  {
+    path: "/",
+    element: <LayoutThree />,
+    children: [
+      {
+        path: "/home-three",
+        element: <HomeThree />,
+      },
+      {
+        path: "/home-three-single",
+        element: <HomeThreeSingle />,
+      },
+    ],
+  },
+  {
+    path: "/",
+    element: <LayoutFour />,
+    children: [
+      {
+        path: "/home-four",
+        element: <HomeFour />,
+      },
+      {
+        path: "/home-four-single",
+        element: <HomeFourSingle />,
+      },
+    ],
+  },
+]);

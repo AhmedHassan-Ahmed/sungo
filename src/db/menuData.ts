@@ -22,50 +22,20 @@ export type MenuItemDataType = {
   submenu?: SubMenuDataType[];
 };
 
-
 export const menuData: MenuItemDataType[] = [
   {
     title: 'Home',
-    link: '/',
-    megamenu: [
-      {
-        image: '/img/header/home-1.jpg',
-        title: 'Home 01',
-        links: [
-          { title: 'Multi Page', link: '/' },
-          { title: 'One Page', link: '/home-one-single' },
-        ],
-      },
-      {
-        image: '/img/header/home-2.jpg',
-        title: 'Home 02',
-        links: [
-          { title: 'Multi Page', link: 'home-two' },
-          { title: 'One Page', link: '/home-two-single' },
-        ],
-      },
-      {
-        image: '/img/header/home-3.jpg',
-        title: 'Home 03',
-        links: [
-          { title: 'Multi Page', link: 'home-three' },
-          { title: 'One Page', link: '/home-three-single' },
-        ],
-      },
-      {
-        image: '/img/header/home-4.jpg',
-        title: 'Home 04',
-        links: [
-          { title: 'Multi Page', link: 'home-four' },
-          { title: 'One Page', link: '/home-four-single' },
-        ],
-      },
-    ],
+    link: '/', 
   },
   {
-    title: 'About',
-    link: '/about',
-  },
+  title: 'About us',
+  link: '#',
+  submenu: [
+    { title: 'Who We Are', link: '/about' },
+    { title: 'Our Mission', link: '/about/about-mission' },
+    { title: 'Values', link: '/team' },
+  ],
+},
   {
     title: 'Education',
     link: '/service',
@@ -97,8 +67,8 @@ export const menuData: MenuItemDataType[] = [
           { title: 'Team Details', link: '/team-details' },
         ],
       },
-      { title: 'Pricing', link: '/pricing' },
-      { title: 'Faq\'s', link: '/faq' },
+      { title: "Pricing", link: '/pricing' },
+      { title: "Faq's", link: '/faq' },
       { title: '404 Page', link: '/404' },
     ],
   },
