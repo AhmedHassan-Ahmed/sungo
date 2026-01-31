@@ -50,14 +50,15 @@ export const menuData: MenuItemDataType[] = [
     link: '#',
     submenu: [
       {
-        title: 'Projects',
-        link: '/project',
+        title: 'Data-Collection',
+        link: '/DataCollection',
         
       },
       
-      { title: "Pricing", link: '/pricing' },
-      { title: "Faq's", link: '/faq' },
-      { title: '404 Page', link: '/404' },
+      { title: "Surveys Research", link: '/SurveysResearch' },
+      { title: "Quality & Security", link: '/Quality&Security' },
+      { title: 'Data Analysis & Reporting', link: '/DataAnalysis&Reporting' },
+      { title: 'Technology in Research', link: '/TechnologyinResearch' },
     ],
   },
   {
@@ -67,7 +68,7 @@ export const menuData: MenuItemDataType[] = [
   },
   {
     title: 'careers',
-    link: '/contact',
+    link: '/careers',
   },
   {
     title: 'Contact',

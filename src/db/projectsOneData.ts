@@ -37,7 +37,7 @@ export const projectsOneData: ProjectDataType[] = [
     title: "Monitoring and Evaluation",
     description:
       "A multidisciplinary approach to monitoring and evaluation, combining quantitative analysis with qualitative insights.",
-    link: "/monitoring-evaluation",
+    link: "/monitoringEvaluation",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const projectsOneData: ProjectDataType[] = [
     title: "Surveys Research",
     description:
       "Cutting-edge survey research built on proven methodologies and best practices across industries.",
-    link: "/surveys-research",
+    link: "/SurveysResearch",
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const projectsOneData: ProjectDataType[] = [
     title: "Data Collection",
     description:
       "Applying the right survey tools for each project, including face-to-face, phone, web, and mail data collection.",
-    link: "/data-collection",
+    link: "/DataCollection",
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ export const projectsOneData: ProjectDataType[] = [
     title: "Data Analysis & Reporting",
     description:
       "Transforming raw data into meaningful insights through accurate analysis and professional reporting.",
-    link: "/data-analysis-reporting",
+    link: "/DataAnalysis&Reporting",
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ export const projectsOneData: ProjectDataType[] = [
     title: "Technology in Research",
     description:
       "Leveraging modern technology to enhance survey efficiency, reduce costs, and improve data accuracy.",
-    link: "/technology-research",
+    link: "/TechnologyinResearch",
   },
   {
     id: 9,
@@ -77,6 +77,6 @@ export const projectsOneData: ProjectDataType[] = [
     title: "Quality & Security",
     description:
       "Ensuring the highest standards of data quality, privacy, and security across all research projects.",
-    link: "/quality-security",
+    link: "/Quality&Security",
   },
 ];

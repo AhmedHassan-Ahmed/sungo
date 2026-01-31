@@ -8,7 +8,7 @@ import Blog from "@/pages/blog";
 import BlogDetails from "@/pages/blog-details";
 import BlogStandard from "@/pages/blog-standard";
 import Contact from "@/pages/contact";
-import Faq from "@/pages/faq";
+import QualitySecurity from "@/pages/QualitySecurity";
 import Home from "@/pages/home";
 import HomeFour from "@/pages/home-four";
 import HomeFourSingle from "@/pages/home-four-single";
@@ -18,8 +18,8 @@ import HomeThreeSingle from "@/pages/home-three-single";
 import HomeTwo from "@/pages/home-two";
 import HomeTwoSingle from "@/pages/home-two-single";
 import Pricing from "@/pages/pricing";
-import Project from "@/pages/project";
-import ProjectCarousel from "@/pages/project-carousel";
+import DataCollection from "@/pages/DataCollection";
+import SurveysResearch from "@/pages/SurveysResearch";
 import ProjectDetails from "@/pages/project-details";
 import Service from "@/pages/service";
 import TeacherDevelopmentDetails from "@/pages/TeacherDevelopmentDetails";
@@ -30,6 +30,10 @@ import TeamDetails from "@/pages/team-details";
 import { createBrowserRouter } from "react-router-dom";
 import AboutMission from "@/components/sections/about/AboutMission";
 import Nurseriespreschools from "@/pages/Nurseriespreschools";
+import DataAnalysisReporting from "@/pages/DataAnalysisReporting";
+import TechnologyinResearch from "@/pages/TechnologyinResearch";
+import Careers from "@/pages/careers"; 
+import MonitoringEvaluation from "@/pages/MonitoringEvaluation";
 
 export const router = createBrowserRouter([
   {
@@ -74,12 +78,12 @@ export const router = createBrowserRouter([
         element: <Nurseriespreschools />,
       },
       {
-        path: "/project",
-        element: <Project />,
+        path: "/DataCollection",
+        element: <DataCollection />,
       },
       {
-        path: "/project-carousel",
-        element: <ProjectCarousel />,
+        path: "/SurveysResearch",
+        element: <SurveysResearch />,
       },
       {
         path: "/project-details",
@@ -102,16 +106,24 @@ export const router = createBrowserRouter([
         element: <Pricing />,
       },
       {
-        path: "/faq",
-        element: <Faq />,
+        path: "/Quality&Security",
+        element: <QualitySecurity />,
       },
       {
-        path: "/404",
-        element: <Error />,
+        path: "/DataAnalysis&Reporting",
+        element: <DataAnalysisReporting />,
+      },
+      {
+        path: "/TechnologyinResearch",
+        element: <TechnologyinResearch />,
+      },
+      {
+        path: "/monitoringEvaluation",
+        element: <MonitoringEvaluation />,
       },
       {
         path: "/news",
-        element: <Blog />,
+        element: <Error />,
       },
       {
         path: "/news-standard",
@@ -124,6 +136,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/careers",
+        element: <Careers />,
       },
     ],
   },
