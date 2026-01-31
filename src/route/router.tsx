@@ -4,7 +4,6 @@ import LayoutTwo from "@/layout/layoutTwo";
 import RootLayout from "@/layout/root";
 import Error from "@/pages/404";
 import About from "@/pages/about";
-import Blog from "@/pages/blog";
 import BlogDetails from "@/pages/blog-details";
 import BlogStandard from "@/pages/blog-standard";
 import Contact from "@/pages/contact";
