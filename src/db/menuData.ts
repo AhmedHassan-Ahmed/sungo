@@ -38,7 +38,7 @@ export const menuData: MenuItemDataType[] = [
 },
   {
     title: 'Education',
-    link: '/service',
+    link: '#',
     submenu: [
       { title: 'School Management', link: '/school-management' },
       { title: 'Teacher professional Development', link: '/TeacherDevelopmentDetails' },
