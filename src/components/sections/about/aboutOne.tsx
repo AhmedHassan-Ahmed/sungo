@@ -19,12 +19,12 @@ const AboutOne = () => {
                 <i className="bi bi-briefcase"></i>
               </div>
               <div className="circle">
-                <Link to="/about" className="about-link">
+                <Link to="/about/about-mission" className="about-link">
                   <i className="fa fa-suitcase fa-3x"></i>
                 </Link>
               </div>
               <h5>
-                <Link to="/about" className="about-link">
+                <Link to="/about/about-mission" className="about-link">
                   Mission
                 </Link>
               </h5>
@@ -46,12 +46,12 @@ const AboutOne = () => {
                 <i className="bi bi-gem"></i>
               </div>
               <div className="circle">
-                <Link to="/about" className="about-link">
+                <Link to="/team" className="about-link">
                   <i className="fa fa-diamond fa-3x"></i>
                 </Link>
               </div>
               <h5>
-                <Link to="/about" className="about-link">
+                <Link to="/team" className="about-link">
                   Values
                 </Link>
               </h5>

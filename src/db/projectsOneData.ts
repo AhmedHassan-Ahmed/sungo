@@ -21,7 +21,7 @@ export const projectsOneData: ProjectDataType[] = [
     title: "Teacher Professional Development",
     description:
       "Tailored training, mentoring, and lesson observations to improve teaching quality rapidly.",
-    link: "/teacher-development",
+    link: "/TeacherDevelopmentDetails",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const projectsOneData: ProjectDataType[] = [
     title: "Nurseries / Preschools",
     description:
       "Managing nurseries and preschools focusing on cognitive, language, physical, and wellness development.",
-    link: "/nurseries",
+    link: "/nurseries-preschools",
   },
   {
     id: 4,

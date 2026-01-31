@@ -22,13 +22,14 @@ import Project from "@/pages/project";
 import ProjectCarousel from "@/pages/project-carousel";
 import ProjectDetails from "@/pages/project-details";
 import Service from "@/pages/service";
-import ServiceCarousel from "@/pages/service-carousel";
-import ServiceDetails from "@/pages/service-details";
+import TeacherDevelopmentDetails from "@/pages/TeacherDevelopmentDetails";
+// import ServiceDetails from "@/pages/Nurseriespreschools";
 import Team from "@/pages/team";
 import TeamCarousel from "@/pages/team-carousel";
 import TeamDetails from "@/pages/team-details";
 import { createBrowserRouter } from "react-router-dom";
 import AboutMission from "@/components/sections/about/AboutMission";
+import Nurseriespreschools from "@/pages/Nurseriespreschools";
 
 export const router = createBrowserRouter([
   {
@@ -61,16 +62,16 @@ export const router = createBrowserRouter([
         ],
       },
       {
-        path: "/service",
+        path: "/school-management",
         element: <Service />,
       },
       {
-        path: "/service-carousel",
-        element: <ServiceCarousel />,
+        path: "/TeacherDevelopmentDetails",
+        element: <TeacherDevelopmentDetails />,
       },
       {
-        path: "/service-details",
-        element: <ServiceDetails />,
+        path: "/nurseries-preschools",
+        element: <Nurseriespreschools />,
       },
       {
         path: "/project",

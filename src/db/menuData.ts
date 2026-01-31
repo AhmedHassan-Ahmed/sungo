@@ -40,9 +40,9 @@ export const menuData: MenuItemDataType[] = [
     title: 'Education',
     link: '/service',
     submenu: [
-      { title: 'School Management', link: '/service' },
-      { title: 'Teacher professional Development', link: '/service-carousel' },
-      { title: 'Nurseries/Preschools', link: '/service-details' },
+      { title: 'School Management', link: '/school-management' },
+      { title: 'Teacher professional Development', link: '/TeacherDevelopmentDetails' },
+      { title: 'Nurseries/Preschools', link: '/nurseries-preschools' },
     ],
   },
   {
