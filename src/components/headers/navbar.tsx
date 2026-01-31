@@ -1,8 +1,9 @@
 // import { menuData, MenuItemDataType } from "@/db/menuData";
-import { Fragment, useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { menuDataSingleHomePage } from "@/db/menuDataSingleHomePage";
-import { menuData, MenuItemDataType } from "@/db/menuData";
+import { Fragment } from "react";
+import { Link } from "react-router-dom";
+// import { menuDataSingleHomePage } from "@/db/menuDataSingleHomePage";
+// import { menuData, MenuItemDataType } from "@/db/menuData";
+import { menuData } from "@/db/menuData";
 
 function Navbar() {
     return (

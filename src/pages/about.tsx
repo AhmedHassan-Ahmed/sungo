@@ -1,10 +1,10 @@
-import AboutTwo from "@/components/sections/about/aboutTwo"
-import MarqueTwo from "@/components/sections/marques/marqueTwo"
-import PartnersOne from "@/components/sections/partners/partnersOne"
-import ProjectsTwo from "@/components/sections/projects/projectsTwo"
-import Offer from "@/components/sections/offer"
+// import AboutTwo from "@/components/sections/about/aboutTwo"
+// import MarqueTwo from "@/components/sections/marques/marqueTwo"
+// import PartnersOne from "@/components/sections/partners/partnersOne"
+// import ProjectsTwo from "@/components/sections/projects/projectsTwo"
+// import Offer from "@/components/sections/offer"
 import PageTitle from "@/components/sections/pageTitle"
-import TeamesThree from "@/components/sections/teames/teamesThree"
+// import TeamesThree from "@/components/sections/teames/teamesThree"
 import SectionTitle from "@/components/ui/sectionTitle"
 
 const About = () => {

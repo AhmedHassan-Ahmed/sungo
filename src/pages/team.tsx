@@ -1,5 +1,5 @@
 import PageTitle from "@/components/sections/pageTitle"
-import TeamesTwo from "@/components/sections/teames/teamesTwo"
+// import TeamesTwo from "@/components/sections/teames/teamesTwo"
 import SectionTitle from "@/components/ui/sectionTitle"
 const Team = () => {
   return (
